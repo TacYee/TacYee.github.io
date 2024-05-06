@@ -29,7 +29,7 @@
               <p style="text-align:center">
                 <name>Chaoxiang Ye (叶超翔)</name>
               </p>
-              <p>Chaoxiang Ye is now a first year Ph.D student at the <a href="//mavlab.tudelft.nl">MAVLab</a> and the <a href="https://www.tudelft.nl/ai/biomorphic-intelligence-lab">BioMorphic Intelligence Lab</a> of Delft University of Technology (TU Delft), supervised by <a href="http://www.bene-guido.eu/wordpress/">Guido de Croon</a> and <a href="https://www.tudelft.nl/staff/s.hamaza/?cHash=de0a5f01872d7e75ad0835943ae9af45">Salua Hamaza</a>. 
+              <p>Chaoxiang Ye is now a second year Ph.D candidate at the <a href="//mavlab.tudelft.nl">MAVLab</a> and the <a href="https://www.tudelft.nl/ai/biomorphic-intelligence-lab">BioMorphic Intelligence Lab</a> of Delft University of Technology (TU Delft), supervised by <a href="http://www.bene-guido.eu/wordpress/">Guido de Croon</a> and <a href="https://www.tudelft.nl/staff/s.hamaza/?cHash=de0a5f01872d7e75ad0835943ae9af45">Salua Hamaza</a>. 
                 He received the joint M.Eng. degree from Southern University of Science and Technology (SUSTech) and Shenzhen Institute of Advanced Technology (SIAT), Chinese Academy of Science (CAS), supervised by <a href="http://people.ucas.ac.cn/~zhengkunyi?language=en">Zhengkun Yi</a>. He received the B.Eng. degree from Dalian University of Technology (DUT).  
               </p>
 
@@ -77,6 +77,49 @@
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+          <tr onmouseout="whisker_stop()" onmouseover="whisker_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='whisker_image'>
+                  <img src='images/whisker_01.png' width="160"></div>
+                <img src='images/whisker_02.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function whisker_start() {
+                  document.getElementById('whisker_image').style.opacity = "1";
+                }
+
+                function whisker_stop() {
+                  document.getElementById('whisker_image').style.opacity = "0";
+                }
+                videodepth_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>A Biomorphic Whisker Sensor for Aerial Tactile Applications</papertitle>
+              </a>
+              <br>
+              <strong>Chaoxiang Ye</strong>,
+              Guido de Croon,
+              and Salua Hamaza
+              <br>
+              <em>ICRA</em>, 2024 
+              <br>
+              <a href="images/Multi-kernel-size_Convolutional_Supervised_Autoencoders_for_Tactile_Gesture_Recognition.pdf">paper</a>
+              <br>
+              <p></p>
+              <p>Unmanned air vehicles (UAVs) have traditionally been considered as “eyes in the sky”, that can move in three dimensions and need to avoid any 
+                contact with their environment. On the contrary, contact should not be considered as a problem, but as an opportunity to expand the range of UAVs applications. 
+                In this paper, we designed,  fabricated, and characterized a whisker sensor unit based on MEMS barometers suitable for tactile localization on UAVs, 
+                featuring lightweight, low stiffness, high sensitivity, a broad sensing range, and scalability. Then, for the challenging task of contact point localization, 
+                we propose a Recurrent Multi-output Network (RMN) for predicting 3D contact points under continuous contact conditions to address the problems of non-linearity, 
+                hysteresis, and non-injective mapping between signals and contact points by considering time series. In addition, we propose an azimuth prediction loss function 
+                which reduces the RMSE by 3.24◦ compared to L1 loss. Finally, we conduct experiments on a linear stage to validate the 3D contact point localization capability 
+                of the proposed whisker system and model. The results show that our localization can achieve excellent performance, with an inference time of 1.4 ms 
+                and a mean error of only 9.18 mm in Euclidean distance within 3D space, laying a robust foundation for future implementation of tactile localization on UAVs. </p>
+            </td>
+          </tr>  
+          
           <tr onmouseout="DVPvp_stop()" onmouseover="DVPvp_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
