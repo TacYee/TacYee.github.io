@@ -1,215 +1,299 @@
-<!DOCTYPE HTML>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <!-- Hi, Jon Here. Please DELETE the two <script> tags below if you use this HTML, otherwise my analytics will track your page -->
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<!--   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-7580334-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-7580334-2');
-  </script>
- -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Chaoxiang Ye — PhD candidate at TU Delft working on tactile perception, aerial robotics, and robot learning." />
   <title>Chaoxiang Ye</title>
-  
-  <meta name="author" content="Jon Barron">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <!-- <link rel="icon" type="image/png" href="images/seal_icon.png"> -->
+
+  <style>
+    body {
+      max-width: 920px;
+      margin: 40px auto;
+      padding: 0 24px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      line-height: 1.55;
+      color: #222;
+      background: #fff;
+    }
+
+    a {
+      color: #1a5fb4;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    h1 {
+      font-size: 34px;
+      margin: 0 0 16px;
+      font-weight: 600;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin: 42px 0 18px;
+      font-weight: 600;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 6px;
+    }
+
+    h3 {
+      font-size: 17px;
+      margin: 0 0 4px;
+      font-weight: 600;
+    }
+
+    p {
+      margin: 0 0 12px;
+    }
+
+    .intro {
+      display: grid;
+      grid-template-columns: 170px 1fr;
+      gap: 28px;
+      align-items: start;
+      margin-bottom: 26px;
+    }
+
+    .portrait {
+      width: 170px;
+      border-radius: 4px;
+      border: 0px solid #ddd;
+    }
+
+    .links {
+      margin-top: 14px;
+    }
+
+    .links a {
+      margin-right: 14px;
+      white-space: nowrap;
+    }
+
+    .news {
+      padding-left: 18px;
+      margin-top: 0;
+    }
+
+    .news li {
+      margin-bottom: 7px;
+    }
+
+    .paper {
+      display: grid;
+      grid-template-columns: 190px 1fr;
+      gap: 22px;
+      margin-bottom: 28px;
+      align-items: stretch;
+    }
+
+    .paper img {
+      width: 190px;
+      max-height: 125px;
+      object-fit: cover;
+      border: 0px solid #ddd;
+      border-radius: 3px;
+      background: #f7f7f7;
+    }
+
+    .crop-right-third-box {
+      width: 190px;
+      height: auto;
+      min-height: 190px;
+      align-self: stretch;
+      overflow: hidden;
+      border: 0px solid #ddd;
+      border-radius: 3px;
+      background: #f7f7f7;
+    }
+
+    .crop-right-third-box img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      max-width: none;
+      max-height: none;
+      border: 0;
+      border-radius: 0;
+      object-fit: cover;
+      object-position: 98% center;
+    }
+    .authors {
+      color: #555;
+      margin-bottom: 2px;
+    }
+
+    .venue {
+      color: #333;
+      font-style: italic;
+      margin-bottom: 5px;
+    }
+
+    .paper-links {
+      margin-top: 6px;
+      font-size: 15px;
+    }
+
+    .paper-links a {
+      margin-right: 12px;
+    }
+
+    .tagline {
+      color: #333;
+      font-size: 17px;
+    }
+
+    .small {
+      color: #666;
+      font-size: 15px;
+    }
+
+    footer {
+      margin-top: 48px;
+      padding-top: 18px;
+      border-top: 1px solid #ddd;
+      color: #666;
+      font-size: 14px;
+    }
+
+    @media (max-width: 700px) {
+      body {
+        margin: 24px auto;
+      }
+
+      .intro {
+        grid-template-columns: 1fr;
+      }
+
+      .portrait {
+        width: 150px;
+      }
+
+      .paper {
+        grid-template-columns: 1fr;
+        gap: 10px;
+      }
+
+      .paper img {
+        width: 100%;
+        max-height: none;
+      }
+    }
+  </style>
 </head>
 
 <body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    <tr style="padding:0px">
-      <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr style="padding:0px">
-            <td style="padding:2.5%;width:63%;vertical-align:middle">
-              <p style="text-align:center">
-                <name>Chaoxiang Ye</name>
-              </p>
-              <p>Chaoxiang Ye is now a second year Ph.D candidate at the <a href="//mavlab.tudelft.nl">MAVLab</a> and the <a href="https://www.tudelft.nl/ai/biomorphic-intelligence-lab">BioMorphic Intelligence Lab</a> of Delft University of Technology (TU Delft), supervised by <a href="http://www.bene-guido.eu/wordpress/">Guido de Croon</a> and <a href="https://www.tudelft.nl/staff/s.hamaza/?cHash=de0a5f01872d7e75ad0835943ae9af45">Salua Hamaza</a>. 
-                He received the joint M.Eng. degree from Southern University of Science and Technology (SUSTech) and Shenzhen Institute of Advanced Technology (SIAT), Chinese Academy of Science (CAS), supervised by <a href="http://people.ucas.ac.cn/~zhengkunyi?language=en">Zhengkun Yi</a>. He received the B.Eng. degree from Dalian University of Technology (DUT).  
-              </p>
+  <div class="intro">
+    <div>
+      <img class="portrait" src="images/YCX.jpg" alt="Chaoxiang Ye">
+    </div>
 
-              </p>
-              
+    <div>
+      <h1>Chaoxiang Ye</h1>
+      <p class="tagline">
+        Ph.D. candidate at TU Delft, supervised by Prof. Guido de Croon and Dr. Salua Hamaza.
+      </p>
+      <p class="small">
+        Micro Air Vehicle Lab · BioMorphic Intelligence Lab · Delft University of Technology
+      </p>
+      <p>
+        My research focuses on tactile aerial intelligence: enabling small aerial robots to perceive and interact with the physical world through touch.
+        I develop lightweight tactile sensors, learning-based perception methods, and closed-loop control strategies for contact-rich robotic systems.
+      </p>
+      <p>
+        I am particularly interested in tactile perception, aerial physical interaction, embodied AI, multimodal sensing, and compact robot learning systems that can operate on resource-constrained platforms.
+      </p>
 
-              <p style="text-align:center">
-                <a href="mailto:C.Ye@tudelft.nl">Email</a> &nbsp/&nbsp
-                <a href="https://github.com/TacYee">Github</a>&nbsp/&nbsp
-                <a href="https://scholar.google.com/citations?user=juq8BScAAAAJ&hl=zh-CN&oi=ao">Google Scholar</a>&nbsp/&nbsp
-                <a href="https://www.linkedin.com/in/chaoxiang-ye-172565304">Linkedin</a>
+      <div class="links">
+        <a href="mailto:450356982@qq.com">Email</a>
+        <a href="https://scholar.google.com/citations?hl=zh-CN&oi=ao&user=juq8BScAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+        <a href="https://github.com/TacYee" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/chaoxiang-ye-172565304" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </div>
 
-              </p>
-            </td>
-            <td style="padding:2.5%;width:40%;max-width:40%">
-              <a href="images/YCX.jpg"><img style="width:80%;max-width:80%" alt="profile photo" src="images/YCX.jpg" class="hoverZoomLink"></a>
-            </td>
-          </tr>
-        </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-                <tbody>
-                  <tr>
-                    <td>
-                      <!-- <heading> -->
-                        <!-- <font color="black">News</font> -->
-                      <!-- </heading> -->
-                      <p>
-                      <ul>
-                      </ul>
-                      </p>
-                    </td>
-                  </tr>
-                </tbody>
+  <h2>News</h2>
+  <ul class="news">
+    <li><strong>2026:</strong> I will attend ICRA 2026 in Vienna. Feel free to reach out if you would like to discuss tactile aerial robotics, embodied AI, or contact-rich robot learning.</li>
+    <li><strong>2024:</strong> Presented our biomorphic whisker sensor for aerial tactile applications at ICRA.</li>
+  </ul>
 
+  <h2>Publications</h2>
+  <p class="small">For a complete and up-to-date list, please see my <a href="https://scholar.google.com/citations?hl=zh-CN&oi=ao&user=juq8BScAAAAJ" target="_blank" rel="noopener">Google Scholar</a>.</p>
 
-            <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Research</heading>
-              <p>
-                I'm interested in Robotics, Tactile Perception and Exploration, Transfer Learning, and Multimodal Fusion.
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
+  <div class="paper">
+    <div class="crop-right-third-box">
+      <img src="images/Whiskereddrone.png" alt="Whisker-based tactile flight for tiny drones">
+    </div>
+    <div>
+      <h3>Whisker-based Tactile Flight for Tiny Drones</h3>
+      <div class="authors"><strong>Chaoxiang Ye</strong>, Guido de Croon, Salua Hamaza</div>
+      <div class="venue">Under review · arXiv preprint, 2025</div>
+      <p>
+        We present a tactile flight framework that enables tiny drones to physically sense, navigate, and actively explore their surroundings using lightweight artificial whiskers. The system integrates a biomimetic whisker sensor, learning-based contact-depth estimation with Kalman filtering, and an onboard finite-state control architecture, allowing a micro aerial vehicle to detect obstacles, maintain tactile interaction, follow surface contours, and build local understanding of confined environments without relying on vision. Real-world flight experiments demonstrate tactile navigation, contour following, and autonomous exploration on a resource-constrained aerial platform.
+      </p>
+      <div class="paper-links">
+        <a href="https://arxiv.org/abs/2510.03119" target="_blank" rel="noopener">arXiv</a>
+        <a href="https://arxiv.org/pdf/2510.03119" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </div>
+  </div>
 
+  <div class="paper">
+    <img src="images/whisker_01.png" alt="A biomorphic whisker sensor for aerial tactile applications">
+    <div>
+      <h3>A Biomorphic Whisker Sensor for Aerial Tactile Applications</h3>
+      <div class="authors"><strong>Chaoxiang Ye</strong>, Guido de Croon, Salua Hamaza</div>
+      <div class="venue">IEEE International Conference on Robotics and Automation (ICRA), 2024</div>
+      <p>
+        We propose a lightweight whisker-inspired tactile sensing system for aerial robots, enabling 3D contact localization through compliant sensing and temporal learning.
+      </p>
+      <div class="paper-links">
+        <a href="images/ICRA-2024_Chaoxiang Ye_Final_2.pdf" target="_blank" rel="noopener">PDF</a>
+        <a href="https://github.com/BioMorphic-Intelligence-Lab/Whisker-3D-Localization" target="_blank" rel="noopener">Code / Dataset</a>
+      </div>
+    </div>
+  </div>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+  <div class="paper">
+    <img src="images/SCSAE-IEMD.png" alt="Tactile hardness recognition">
+    <div>
+      <h3>Stacked Convolutional Supervised Auto-encoder Based on Improved Earth Mover's Distance Loss for Tactile Hardness Recognition</h3>
+      <div class="authors"><strong>Chaoxiang Ye</strong>, Senlin Fang, Meng Yin, Xiaoyu Li, Zhengkun Yi, Xinyu Wu</div>
+      <div class="venue">Manuscript / Preprint</div>
+      <p>
+        A tactile hardness recognition method using supervised autoencoder representations and distance-aware ordinal supervision.
+      </p>
+    </div>
+  </div>
 
-          <tr onmouseout="whisker_stop()" onmouseover="whisker_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='whisker_image'>
-                  <img src='images/whisker_02.png' width="180"></div>
-                <img src='images/whisker_01.png' width="180">
-              </div>
-              <script type="text/javascript">
-                function whisker_start() {
-                  document.getElementById('whisker_image').style.opacity = "1";
-                }
+  <div class="paper">
+    <img src="images/MCSAE_01.png" alt="Tactile gesture recognition">
+    <div>
+      <h3>Multi-kernel-size Convolutional Supervised Autoencoders for Tactile Gesture Recognition</h3>
+      <div class="authors"><strong>Chaoxiang Ye</strong>, Xiaoyu Li, Binhua Huang, Yuanzhe Su, Tingting Mi, Zhenning Zhou, Zhengkun Yi, Xinyu Wu</div>
+      <div class="venue">IEEE International Conference on Cyborg and Bionic Systems (CYBER), 2022</div>
+      <p>
+        We introduce a supervised autoencoder framework for tactile gesture recognition, improving representation learning and generalization on limited tactile data.
+      </p>
+      <div class="paper-links">
+        <a href="images/Multi-kernel-size_Convolutional_Supervised_Autoencoders_for_Tactile_Gesture_Recognition.pdf" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </div>
+  </div>
 
-                function whisker_stop() {
-                  document.getElementById('whisker_image').style.opacity = "0";
-                }
-                videodepth_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-                <papertitle>A Biomorphic Whisker Sensor for Aerial Tactile Applications</papertitle>
-              </a>
-              <br>
-              <strong>Chaoxiang Ye</strong>,
-              Guido de Croon,
-              and Salua Hamaza
-              <br>
-              <em>ICRA</em>, 2024 
-              <br>
-              <a href="images/ICRA-2024_Chaoxiang Ye_Final_2.pdf">paper</a>,
-              <a href="https://github.com/BioMorphic-Intelligence-Lab/Whisker-3D-Localization">design files, dataset, and code</a> 
-              <br>
-              <p></p>
-              <p>Unmanned air vehicles (UAVs) have traditionally been considered as “eyes in the sky”, that can move in three dimensions and need to avoid any 
-                contact with their environment. On the contrary, contact should not be considered as a problem, but as an opportunity to expand the range of UAVs applications. 
-                In this paper, we designed,  fabricated, and characterized a whisker sensor unit based on MEMS barometers suitable for tactile localization on UAVs, 
-                featuring lightweight, low stiffness, high sensitivity, a broad sensing range, and scalability. Then, for the challenging task of contact point localization, 
-                we propose a Recurrent Multi-output Network (RMN) for predicting 3D contact points under continuous contact conditions to address the problems of non-linearity, 
-                hysteresis, and non-injective mapping between signals and contact points by considering time series. In addition, we propose an azimuth prediction loss function 
-                which reduces the RMSE by 3.24◦ compared to L1 loss. Finally, we conduct experiments on a linear stage to validate the 3D contact point localization capability 
-                of the proposed whisker system and model. The results show that our localization can achieve excellent performance, with an inference time of 1.4 ms 
-                and a mean error of only 9.18 mm in Euclidean distance within 3D space, laying a robust foundation for future implementation of tactile localization on UAVs. </p>
-            </td>
-          </tr>  
-          
-          <tr onmouseout="DVPvp_stop()" onmouseover="DVPvp_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <img src='images/SCSAE-IEMD.png' width="160">
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-                <papertitle>Stacked Convolutional Supervised Auto-encoder Based on Improved Earth Mover’s Distance Loss for Tactile Hardness Recognition</papertitle>
-              </a>
-              <br>
-              <strong>Chaoxiang Ye</strong>,
-              Senlin Fang,
-              Meng Yin,
-              Xiaoyu Li,
-              Zhengkun Yi,
-              Xinyu Wu
-              <br>
-              <em>manuscript in preparation</em>  
-              <br>
-              <p></p>
-              <p>We propose an ordinal classification method to recognize the hardness of objects. To verify the performance of the proposed method, we use a real robot to collect a tactile hardness dataset on silicone samples of three different shapes. Experimental results show that compared with state-of-the-art methods, the proposed method achieves better performance in terms of accuracy and quadratic weighted kappa (QWK). </p>
-            </td>
-          </tr>  
+  <h2>Research Interests</h2>
+  <p>
+    Tactile sensing · Aerial robotics · Embodied AI · Multimodal perception · Contact-rich control · Embedded robotic systems
+  </p>
 
-          <tr onmouseout="MCSAE_stop()" onmouseover="MCSAE_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='MCSAE_image'>
-                  <img src='images/gesture_01.png' width="160"></div>
-                <img src='images/MCSAE_01.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function MCSAE_start() {
-                  document.getElementById('MCSAE_image').style.opacity = "1";
-                }
-
-                function MCSAE_stop() {
-                  document.getElementById('MCSAE_image').style.opacity = "0";
-                }
-                videodepth_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-                <papertitle>Multi-kernel-size Convolutional Supervised Autoencoders for Tactile Gesture Recognition</papertitle>
-              </a>
-              <br>
-              <strong>Chaoxiang Ye</strong>,
-              Xiaoyu Li,
-              Binhua Huang,
-              Yuanzhe Su,
-              Tingting Mi,
-              Zhenning Zhou,
-              Zhengkun Yi,
-              Xinyu Wu
-              <br>
-              <em>CYBER</em>, 2022 
-              <br>
-              <a href="images/Multi-kernel-size_Convolutional_Supervised_Autoencoders_for_Tactile_Gesture_Recognition.pdf">paper</a>
-              <br>
-              <p></p>
-              <p>In this paper, we apply the Supervised Autoencoders (SAE) to improve the generalization performance. Moreover, based on the SAE, we propose the Multi-kernel-size
-                 Convolutional Supervised Autoencoders (MCSAE) to further improve the generalization performance on the limited dataset, which provides models with more
-                 structure of receptive fields and enhances the feature extraction ability of SAE. In comparison with other state-of-the-art (SOTA) models, the SAE we apply has
-                 higher gesture recognition accuracy and MCSAE can further improve the generalization performance of SAE on the sample-limited publicly available dataset. </p>
-            </td>
-          </tr>  
-       
-
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-            <td style="padding:0px">
-              <br>
-              <p style="text-align:center;font-size:small;">Thank <a href="https://jonbarron.info/">Dr. Jon Barron</a> for sharing the source code of his personal page.</p>
-                <!-- <br> -->
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
-      </td>
-    </tr>
-  </table>
+  <footer>
+    Chaoxiang Ye · Last updated 2026
+  </footer>
 </body>
-
-
-<a href="https://www.easycounter.com/">
-<img src="https://www.easycounter.com/counter.php?tacyee"
-border="0" alt="Hit Counters"></a>
-<br><a href="https://www.easycounter.com/">Free Hit Counter</a>
-
 </html>
-© 2022 GitHub, Inc.
